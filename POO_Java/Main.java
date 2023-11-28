@@ -4,15 +4,16 @@ public class Main {
     // Método principal (main) para probar la clase Persona
     public static void main(String[] args) {
         // Crear una instancia de la clase Persona
-        Persona persona1 = new Persona("Juan", 25);
+        Persona persona = new Persona("Jesus Antonio", 25, 1.81);
 
         // Imprimir información utilizando el método de la clase
-        persona1.imprimirInformacion();
+        persona.imprimirInformacion();
 
-        // Modificar la edad utilizando el método de la clase
-        persona1.setEdad(26);
+        // Usando los Metodos
+        persona.bailar("Bachata");
 
-        // Imprimir la información actualizada
-        persona1.imprimirInformacion();
+        persona.comer("No tengo hambre");
+
+        persona.caminar(false);
     }
 }
